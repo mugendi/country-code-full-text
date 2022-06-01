@@ -1,0 +1,20 @@
+{
+  "name": "country-code-full-text",
+  "version": "0.0.1",
+  "description": "Finds countries by various country codes. Upgraded to find countries even where country name is misspelt.",
+  "main": "index.js",
+  "keywords": [
+    "fips",
+    "iso",
+    "country",
+    "code",
+    "countries",
+    "dirty",
+    "full-text",
+    "search"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "string-similarity": "^4.0.4"
+  }
+}
