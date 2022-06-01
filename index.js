@@ -1,3 +1,5 @@
+const stringSimilarity = require('string-similarity');
+
 module.exports.byFips = function (code) {
 	return search('fips', code.toUpperCase());
 };
@@ -26,7 +28,6 @@ module.exports.byCountry = function (country) {
 	return search('country', country);
 };
 
-const stringSimilarity = require('string-similarity');
 
 function search(field, code) {
 	// console.log({field, code})
